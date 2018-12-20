@@ -1,0 +1,98 @@
+.detail{
+    padding: 0.2rem;
+    overflow: hidden;
+    .detail-top{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-direction: row;
+    }
+    .img{
+        display: flex;
+        flex: 1.5;
+        height: 2rem;
+    }
+    .top-info{
+        display: flex;
+        flex: 4;
+        margin-left: 0.2rem;
+        flex-direction: column;
+        font-size: 0.22rem;
+        color: #666;
+        line-height: 0.38rem;
+    }
+    .detail-title{
+        font-size: 0.24rem;
+        color: #000;
+    }
+    .summary{
+        line-height: 0.38rem;
+        text-align: justify;
+        font-size: 0.22rem;
+        color: #999;
+    }
+    .casts-ul{
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+    .casts-item{
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0.2rem 0.1rem;
+    }
+    .pic{
+        width: 1.6rem;
+        height: 2rem;
+        object-fit: cover;
+    }
+    .name{
+        width: 1.6rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin: 0.08rem 0;
+        text-align: center;
+        font-size: 0.22rem;
+        color: #000;
+       
+
+    }
+}
+.detail-tab{
+    width: 100%;
+    padding: 0.2rem 0;   
+    ul{
+        display: flex;
+        align-content: center;
+        border-top: 0.02rem solid #eee;
+        border-bottom: 0.02rem solid #eee;
+        li{
+            display: flex;
+            flex: 1;
+            padding: 0.2rem 0;
+            text-align: center;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.22rem;
+            color: #333;
+            
+        }
+        .active{
+            font-size: 0.23rem;
+            color: #000;
+            font-weight: bold;
+            
+        }
+    }
+ 
+}
+.casts-num{
+    padding: 0.2rem 0;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #f85f77;
+}
+.dis-no{
+    display: none;
+}

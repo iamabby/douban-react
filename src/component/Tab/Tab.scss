@@ -1,0 +1,60 @@
+body{
+    background: #fff;
+}
+.tab{
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    font-size: 0.2rem;
+    padding:0.1rem 0.2rem;
+    background: #fff;
+    border-top: 0.02rem solid #ddd;
+    .tab-item{
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    .icon{
+        width: 100%;
+        height: 0.4rem;
+    }
+    .hot{
+        background: url(../../images/icon-movie.png) no-repeat;
+        background-position: center center;
+        background-size: 0.4rem 0.4rem;
+    }
+    .my{
+        background: url(../../images/icon-my.png) no-repeat;
+        background-position: center center;
+        background-size: 0.4rem 0.4rem;
+    }
+    .search{
+        padding: 0;
+        background: url(../../images/icon-search.png) no-repeat;
+        background-position: center center;
+        background-size: 0.4rem 0.4rem;
+    }
+    .seleted{
+        color: #f85f77;
+        .hot{
+            background: url(../../images/icon-movie-selected.png) no-repeat;
+            background-position: center center;
+            background-size: 0.4rem 0.4rem;
+        }
+        .my{
+            background: url(../../images/icon-my-selected.png) no-repeat;
+            background-position: center center;
+            background-size: 0.4rem 0.4rem;
+        }
+        .search{
+            background: url(../../images/icon-search-selected.png) no-repeat;
+            background-position: center center;
+            background-size: 0.4rem 0.4rem;
+        }
+    }
+}

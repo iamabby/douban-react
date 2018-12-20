@@ -1,0 +1,35 @@
+.search{
+    display: flex;
+    padding: 0.2rem;
+    flex-direction: cloumn;
+    font-size: 0.24rem;
+    input{
+        border-radius: 0.08rem;
+    }
+    .input{
+     border: none;
+     display: flex;
+     flex: 3;
+     padding: 0.15rem;
+     border: 0.02rem solid #ddd;
+    }
+    .search-btn{
+        border: none;
+        display: flex;
+        flex: 1;
+        margin-left: 0.2rem;
+        padding: 0.15rem ;
+        justify-content: center;
+        color: #fff;
+        background: #f85f77;
+    }
+}
+.tips{
+    padding: 0.2rem;
+    text-align: center;
+    font-size: 0.22rem ;
+    span{
+        color:  #f85f77;
+    }
+    
+}

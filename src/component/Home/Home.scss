@@ -1,0 +1,51 @@
+.top-ul{
+    width: 100%;
+    padding: 0.2rem 0.2rem 0.8rem;
+    box-sizing: border-box;
+    font-size: 0.24rem;
+    li{
+        display: flex;
+        padding: 0.2rem 0;
+        border-bottom: 0.02rem solid #eee;
+        &:last-child{
+            border-bottom: 0;
+        }
+        a{
+            width: 100%;
+            display: flex;
+        }
+    }
+    
+    .pic{
+      display: flex;
+      flex: 1;
+      height: 1.8rem;
+      img{
+          width: 100%;
+      }
+    }
+    .infos{
+        display: flex;
+        flex: 3;
+        flex-direction: column;
+        margin-left: 0.2rem;
+        font-size: 0.2rem;
+        color: #999;
+        
+    }
+    .item-title{
+       
+        margin-bottom: 0.1rem;
+        font-size: 0.24rem;
+        color: #000;
+    }
+    .direactors{
+        margin: 0.1rem 0;
+    }
+    .casts{
+        span{
+            margin-right: 0.15rem;
+        }
+    }
+    
+}

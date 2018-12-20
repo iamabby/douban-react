@@ -1,0 +1,22 @@
+.star{
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+}
+.star-item{
+    display: flex;
+    flex: 5;
+    height: 15px;
+    background-image: url(../../images/star-1.png);
+    background-size: 15px 15px;
+}
+.star-rating{
+    height: 15px;
+    background-image: url(../../images/star.png);
+    background-size: 15px 15px;
+}
+.star-num{
+    display: flex;
+    flex: 2;
+    justify-content: flex-end;
+}
