@@ -48,7 +48,7 @@ import Title from "../Title/Title";
     const {title,summary,casts,img,countries,genres,original_title,year,tab} =this.state;
     return (
      <>
-      <Title title="影片详情" />
+      <Title title="影片详情" back="返回" />
       <div className="detail">
        <div className="detail-top">
        <div className="img">

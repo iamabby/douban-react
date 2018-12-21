@@ -26,7 +26,7 @@ import Title from '../Title/Title';
       const { list}=this.state;
     return (
     <>
-    <Title title="热映电影" />
+    <Title title="热映电影"/>
       <ul className="top-ul">
         {
             list.map((item,index)=>{

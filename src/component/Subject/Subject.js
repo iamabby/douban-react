@@ -49,7 +49,7 @@ export default class Subject extends Component {
     const {title,summary,casts,img,countries,genres,original_title,year,tab} =this.state;
     return (
       <>
-      <Title title="影片详情"/>
+      <Title title="影片详情" back="返回"/>
       <div className="detail">
       <div className="detail-top">
         <div className="img">
@@ -88,7 +88,7 @@ export default class Subject extends Component {
               return(
                 <li key={index} className="casts-item">
                     <Link  to={/Celebrity/+item.id}>
-                    <img src={item.avatars.small} alt="" className="pic" />
+                    <img src={item.avatars.medium} alt="" className="pic" />
                     <div className="name">{item.name}</div>
                     </Link>
                 </li>

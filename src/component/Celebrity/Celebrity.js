@@ -49,7 +49,7 @@ export default class Celebrity extends Component {
     }=this.state;
     return (
      <>
-     <Title title="演员资料" />
+     <Title title="演员资料" back="返回" />
       <div className="celebrity">
        
        <div className="name">
