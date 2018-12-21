@@ -2,6 +2,7 @@
   "name": "react-demo",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@babel/core": "7.1.0",
     "@svgr/webpack": "2.4.1",
@@ -73,7 +74,6 @@
     "node-sass": "^4.11.0",
     "react-hot-loader": "^4.6.2"
   },
-  "proxy": "https://api.douban.com",
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}",
@@ -119,5 +119,6 @@
     "presets": [
       "react-app"
     ]
-  }
-}
+  },
+  "proxy": "https://api.douban.com"
+ }
