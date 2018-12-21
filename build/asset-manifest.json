@@ -1,0 +1,11 @@
+{
+  "main.css": "./static/css/main.9bb24b27.chunk.css",
+  "main.js": "./static/js/main.db3b2b54.chunk.js",
+  "static/js/1.fb3df22a.chunk.js": "./static/js/1.fb3df22a.chunk.js",
+  "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
+  "static/media/Tab.scss": "./static/media/icon-movie-selected.9465aff0.png",
+  "static/css/main.9bb24b27.chunk.css.map": "./static/css/main.9bb24b27.chunk.css.map",
+  "index.html": "./index.html",
+  "precache-manifest.991b46f7e7368a3dbfd7c8285cd1c39a.js": "./precache-manifest.991b46f7e7368a3dbfd7c8285cd1c39a.js",
+  "service-worker.js": "./service-worker.js"
+}
