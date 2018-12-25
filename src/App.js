@@ -8,6 +8,7 @@ import Celebrity from './component/Celebrity/Celebrity';
 import Subject from './component/Subject/Subject';
 import { hot } from 'react-hot-loader';
 import Search from './component/Search/Search';
+import Comment from "./component/Comment/Comment";
 import createHashHistory from "history/createHashHistory";
 const history = createHashHistory();
 class App extends Component {
@@ -25,7 +26,7 @@ class App extends Component {
           <Route path="/Celebrity/:id" component={Celebrity} />
           <Route path="/Subject/:id" component={Subject} />
           <Route path="/Search" component={Search} />
-           
+          <Route path="/Comment" component={Comment} />
           </Switch>
           </>
        

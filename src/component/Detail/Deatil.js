@@ -3,6 +3,7 @@ import "./Detail.scss";
 import axios from "axios";
 import {Link} from "react-router-dom";
 import Title from "../Title/Title";
+import Wantsee from '../Wantsee/Wantsee';
  class Detail extends Component {
  constructor(props){
      super(props);
@@ -62,6 +63,10 @@ import Title from "../Title/Title";
             <div className="year">年份：{year}</div>
        </div>
        </div>
+
+
+
+       <Wantsee  />
  
        <div className="detail-tab">
         <ul>  
