@@ -67,6 +67,12 @@ import Wantsee from '../Wantsee/Wantsee';
 
 
        <Wantsee  />
+
+
+     {/* 回显内容 */}
+     <div className="comment-text">这里回显评论内容</div>
+
+
  
        <div className="detail-tab">
         <ul>  

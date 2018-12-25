@@ -9,6 +9,8 @@ class Title extends Component {
  }
  goBack = () =>{
   this.props.history.goBack()
+  //window.history.go(-1) 返回上一页
+
  }
   render() {
     return (
